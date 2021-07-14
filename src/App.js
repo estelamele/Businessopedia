@@ -55,7 +55,7 @@ const App = () => {
         sidebarHeader={sidebarHeader}
         menuItems={menuItems}
         fonts={fonts}
-        colorPalette={Palette.red}
+        colorPalette={Palette.brown}
       />
       <MainView />
     </s.App>
