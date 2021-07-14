@@ -9,7 +9,7 @@ import MainView from "./components/MainView/MainView";
 const App = () => {
   const backgroundImage = "images/mountain.jpg";
   const sidebarHeader = {
-    fullName: "Yo Yo Travel",
+    fullName: "Yo Travel",
     shortName: "YO"
   };
   const menuItems = [
