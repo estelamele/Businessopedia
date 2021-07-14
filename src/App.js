@@ -16,9 +16,9 @@ const App = () => {
     { name: "Home", to: "/", icon: "/icons/home.svg", subMenuItems: [] },
     { name: "About", to: "/about", icon: "/icons/about.svg", subMenuItems: [] },
     {
-      name: "Destinations",
-      to: "/destinations",
-      icon: "/icons/destinations.svg",
+      name: "Categories",
+      to: "/Categories",
+      icon: "/icons/blog.svg",
       subMenuItems: [
         { name: "Canada", to: "/canada" },
         { name: "Brazil", to: "/brazil" },
