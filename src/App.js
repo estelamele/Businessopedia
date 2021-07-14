@@ -7,10 +7,10 @@ import Sidebar from "./components/Sidebar/Sidebar";
 import MainView from "./components/MainView/MainView";
 
 const App = () => {
-  const backgroundImage = "images/mountain.jpg";
+  const backgroundImage = "https://i.pinimg.com/originals/b5/c3/14/b5c314ac9fc88cdb1236ded180f67468.jpg";
   const sidebarHeader = {
-    fullName: "Yo Travel",
-    shortName: "YO"
+    fullName: "𝕻usinessopedia",
+    shortName: "𝕻"
   };
   const menuItems = [
     { name: "Home", to: "/", icon: "/icons/home.svg", subMenuItems: [] },

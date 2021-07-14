@@ -6,8 +6,8 @@ export const SidebarContainer = styled.div`
   min-width: 80px;
   background-image: linear-gradient(
       315deg,
-      ${(p) => p.colorPalette.bgColor1} 0%,
-      ${(p) => p.colorPalette.bgColor2} 74%
+      rgba(9,32,63,0.8) 0%,
+      rgba(83,120,149,0.5) 74%
     ),
     url(${(p) => p.backgroundImage});
   background-size: cover;
