@@ -1,7 +1,7 @@
 import React from "react";
 
-const Destinations = () => {
-  return <h1>Destinations Page</h1>;
+const Categories = () => {
+  return <h1>Categories Page</h1>;
 };
 
-export default Destinations;
+export default Categories;
