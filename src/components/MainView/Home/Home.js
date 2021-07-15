@@ -1,10 +1,7 @@
 import React from "react";
-import "./home.css";
 
-export default function Home() {
-  return (
-    <div>
-      <h1>Businessopedia</h1>
-    </div>
-  );
-}
+const Home = () => {
+  return <h1>BUSINESSOPEDIA</h1>;
+};
+
+export default Home;
