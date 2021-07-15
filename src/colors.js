@@ -3,7 +3,7 @@ export const dejaVu = {
   bgColor2: "rgba(246, 112, 98, 0.8)",
   fontColor: "rgba(19, 15, 64)",
   fontColorSelected: "rgba(255, 255, 255)",
-  dividerColor: "rgba(225, 112, 85)",
+  dividerColor: "rgba(19, 15, 64, 0.7)",
   selectedBackgroundCollapsedMode: "dark"
 };
 
