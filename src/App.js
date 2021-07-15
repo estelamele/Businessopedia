@@ -21,10 +21,10 @@ const App = () => {
       icon: "/icons/blog.svg",
       subMenuItems: [
         { name: "Accessories", to: "/canada", icon: "/icons/blog.svg" },
-        { name: "Clothes", to: "/brazil" },
-        { name: "India", to: "/india" },
-        { name: "Australia", to: "/australia" },
-        { name: "Kenya", to: "/kenya" },
+        { name: "Arts & Culture", to: "/brazil" },
+        { name: "Clothes", to: "/india" },
+        { name: "Pets services", to: "/australia" },
+        { name: "Restaurants", to: "/kenya" },
         { name: "Moldova", to: "/moldova" }
       ]
     },
