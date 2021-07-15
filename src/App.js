@@ -20,7 +20,7 @@ const App = () => {
       to: "/Categories",
       icon: "/icons/blog.svg",
       subMenuItems: [
-        { name: "Canada", to: "/canada" },
+        { name: "Canada", to: "/canada", icon: "/icons/blog.svg" },
         { name: "Brazil", to: "/brazil" },
         { name: "India", to: "/india" },
         { name: "Australia", to: "/australia" },
