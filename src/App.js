@@ -20,10 +20,10 @@ const App = () => {
       to: "/Categories",
       icon: "/icons/blog.svg",
       subMenuItems: [
-        { name: "Accessories", to: "/canada", icon: "/icons/blog.svg" },
+        { name: "Accessories", to: "/canada" },
         { name: "Arts & Culture", to: "/brazil" },
         { name: "Clothes", to: "/india" },
-        { name: "Pets services", to: "/australia" },
+        { name: "Pets Services", to: "/australia" },
         { name: "Restaurants", to: "/kenya" }
       ]
     },

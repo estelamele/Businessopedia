@@ -22,7 +22,7 @@ export const SidebarHeader = styled.h3`
   padding: 20px 0;
   text-align: center;
   margin-bottom: 10px;
-  letter-spacing: 6px;
+  letter-spacing: 5px;
   font-family: ${(p) => p.font};
 `;
 
@@ -101,7 +101,7 @@ export const SubMenuItemContainer = styled.div`
 export const SubMenuItem = styled.p`
   color: ${(p) =>
     p.selected ? p.colorPalette.fontColorSelected : p.colorPalette.fontColor};
-  ${(p) => p.selected && "font-weight: bold; letter-spacing: 2px;"};
+  ${(p) => p.selected && "font-weight: bold; letter-spacing: 1px;"};
   transition: 0.2s;
   &:hover {
     color: ${(p) => p.colorPalette.fontColorSelected};
