@@ -1,6 +1,6 @@
 import styled from "@emotion/styled";
 
-export const BusinessContainer = styled.div`
+export const CountryContainer = styled.div`
   width: 80%;
   height: 200px;
   margin: 20px auto 0;
@@ -9,7 +9,7 @@ export const BusinessContainer = styled.div`
   align-items: center;
 `;
 
-export const BusinessImage = styled.img`
+export const CountryImage = styled.img`
   width: 50%;
   height: 200px;
   background-image: url(${(p) => p.img});
@@ -18,6 +18,6 @@ export const BusinessImage = styled.img`
   background-position: center center;
 `;
 
-export const BusinessDescription = styled.div`
+export const CountryDescription = styled.div`
   width: 45%;
 `;
