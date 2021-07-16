@@ -4,29 +4,25 @@ import * as s from "./Business.styles";
 const Business = (props) => {
   const business = props.match.params.business;
   const businesses = {
-    canada: {
-      img: "/images/businesses/canada.png",
-      description: "Canada is chilly"
+    accessories: {
+      img: "/images/businesses/accessories.jpg",
+      description: "Accessories category"
     },
-    brazil: {
-      img: "/images/businesses/brazil.jpg",
-      description: "Brazil is sunny"
+    arts: {
+      img: "/images/businesses/arts.jpg",
+      description: "Arts and culture"
     },
-    australia: {
-      img: "/images/businesses/australia.jpg",
-      description: "Australia is boring"
+    clothes: {
+      img: "/images/businesses/clothes.jpg",
+      description: "Clothes category"
     },
-    india: {
-      img: "/images/businesses/india.jpg",
-      description: "India is awesome"
+    pets: {
+      img: "/images/businesses/pets.jpg",
+      description: "Pets services"
     },
-    moldova: {
-      img: "/images/businesses/moldova.jpeg",
-      description: "Moldova is beautiful"
-    },
-    kenya: {
-      img: "/images/businesses/kenya.jpg",
-      description: "Kenya is breathtaking"
+    restaurants: {
+      img: "/images/businesses/restaurants.jpg",
+      description: "Restaurants category"
     }
   };
 

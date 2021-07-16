@@ -20,11 +20,11 @@ const App = () => {
       to: "/Categories",
       icon: "/icons/blog.svg",
       subMenuItems: [
-        { name: "Accessories", to: "/canada" },
-        { name: "Arts & Culture", to: "/brazil" },
-        { name: "Clothes", to: "/india" },
-        { name: "Pets Services", to: "/australia" },
-        { name: "Restaurants", to: "/kenya" }
+        { name: "Accessories", to: "/accessories" },
+        { name: "Arts & Culture", to: "/arts" },
+        { name: "Clothes", to: "/clothes" },
+        { name: "Pets Services", to: "/pets" },
+        { name: "Restaurants", to: "/restaurants" }
       ]
     },
     { name: "Blog", to: "/blog", icon: "/icons/blog.svg", subMenuItems: [] },
